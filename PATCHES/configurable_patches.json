@@ -1,0 +1,24 @@
+{
+  "Bloodborne Res": {
+    "Serial": [
+      "CUSA00207", "CUSA00208", "CUSA00299", "CUSA00900", "CUSA01363",
+      "CUSA03023", "CUSA03173"
+    ],
+    "Name": "Resolution Patch (560p)",
+    "AppVer": "01.09",
+    "PatchValues": [
+      {
+        "ValueName": "Resolution (Horizontal)",
+        "Address": "0x055289f8",
+        "Min": 600,
+        "Max": 10000
+      },
+      {
+        "ValueName": "Resolution (Vertical)",
+        "Address": "0x055289fc",
+        "Min": 400,
+        "Max": 6000
+      }
+    ]
+  }
+}

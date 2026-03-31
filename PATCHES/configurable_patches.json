@@ -2,6 +2,15 @@
   "Bloodborne Resolution": {
     "Name": "Resolution Patch (Configurable)",
     "AppVer": "01.09",
+    "Serial": [
+      "CUSA00207",
+      "CUSA00208",
+      "CUSA00299",
+      "CUSA00900",
+      "CUSA01363",
+      "CUSA03023",
+      "CUSA03173"
+    ],
     "SelectedOption": 0,
     "Options": [
       {
@@ -20,15 +29,6 @@
         "OptionName": "1280 x 720",
         "OptionNotes": "Example Description"
       }
-    ],
-    "Serial": [
-      "CUSA00207",
-      "CUSA00208",
-      "CUSA00299",
-      "CUSA00900",
-      "CUSA01363",
-      "CUSA03023",
-      "CUSA03173"
     ]
   }
 }

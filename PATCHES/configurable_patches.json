@@ -1,23 +1,30 @@
 {
-  "Bloodborne Res": {
+  "Bloodborne Resolution": {
     "Serial": [
-      "CUSA00207", "CUSA00208", "CUSA00299", "CUSA00900", "CUSA01363",
-      "CUSA03023", "CUSA03173"
+      "CUSA00207",
+      "CUSA00208",
+      "CUSA00299",
+      "CUSA00900",
+      "CUSA01363",
+      "CUSA03023",
+      "CUSA03173"
     ],
     "Name": "Resolution Patch (560p)",
     "AppVer": "01.09",
-    "PatchValues": [
+    "Options": [
       {
-        "ValueName": "Resolution (Horizontal)",
-        "Address": "0x055289f8",
-        "Min": 600,
-        "Max": 10000
+        "OptionName": "1920 x 1080",
+        "ModifiedValues": [
+          ["0x055289f8", 1920],
+          ["0x055289fc", 1080]
+        ]
       },
       {
-        "ValueName": "Resolution (Vertical)",
-        "Address": "0x055289fc",
-        "Min": 400,
-        "Max": 6000
+        "OptionName": "1280 x 720",
+        "ModifiedValues": [
+          ["0x055289f8", 1280],
+          ["0x055289fc", 720]
+        ]
       }
     ]
   }

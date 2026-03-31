@@ -16,7 +16,7 @@
       {
         "OptionName": "1920 x 1080",
         "OptionNotes": "Test long description Test long description Test long description Test long description Test long description Test long description Test long description Test long description Test long description",
-	"ModifiedValues": [
+        "ModifiedValues": [
           ["0x055289f8", 1920],
           ["0x055289fc", 1080]
         ]

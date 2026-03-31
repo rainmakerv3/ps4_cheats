@@ -9,11 +9,12 @@
       "CUSA03023",
       "CUSA03173"
     ],
-    "Name": "Resolution Patch (560p)",
+    "Name": "Resolution Patch (Configurable)",
     "AppVer": "01.09",
     "Options": [
       {
         "OptionName": "1920 x 1080",
+	"OptionNotes": "Test long description Test long description Test long description Test long description Test long description Test long description Test long description Test long description Test long description",
         "ModifiedValues": [
           ["0x055289f8", 1920],
           ["0x055289fc", 1080]
@@ -21,6 +22,7 @@
       },
       {
         "OptionName": "1280 x 720",
+	"OptionNotes": "Description",
         "ModifiedValues": [
           ["0x055289f8", 1280],
           ["0x055289fc", 720]
